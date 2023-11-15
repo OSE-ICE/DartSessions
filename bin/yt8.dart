@@ -43,7 +43,11 @@ void main(){
     [ 7, 5, 3, 1 ]
   ];
 
-
+  for (int idx = 0; idx < myList.length; idx++){
+    for (int i = 0; i < myList[idx].length; i++){
+      print(myList[idx][i]);
+    }
+  }
 
 
 

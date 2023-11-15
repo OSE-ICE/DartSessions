@@ -14,6 +14,20 @@
 
  */
 
+  List<int>? getNumbersBiggerThan(input){
+    List<int> newList = [];
+
+    for(List<int> innerList in input){
+      for (int inner in innerList){
+        if (inner > 5) {
+          newList.add(inner);
+        }
+      }
+    }
+    print(newList);
+return newList;
+  }
+
 
 void main(){
   List<List<int>> myList = [
@@ -23,4 +37,14 @@ void main(){
     [ 7, 5, 3, 1 ]
   ];
 
+  var newList = [];
+
+  for(List<int> innerList in myList){
+    for (int inner in innerList){
+      if (inner > 5) {
+        newList.add(inner);
+      }
+    }
+  }
+  getNumbersBiggerThan(myList);
 }

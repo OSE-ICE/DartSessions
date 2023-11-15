@@ -15,4 +15,10 @@ void main(){
 
   List<List<int>> myList = [[2, 4, 6, 8, 10], [3, 6, 9, 12, 15], [4, 8, 12, 16, 20]];
 
+  for (List list in myList) {
+    print(list);
+  }
+  for (int i = 0; i < myList.length; i++ ) {
+    print(myList[i]);
+  }
 }

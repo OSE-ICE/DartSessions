@@ -28,5 +28,12 @@ void main(){
     [4, 8, 12, 16, 20]
   ];
 
+  var newList = myList[1];
+  print(newList);
+  var middleNumber = newList[2];
+  print(middleNumber);
+  int bonusChallenge = myList[1][2];
+  print(bonusChallenge);
+
 
 }

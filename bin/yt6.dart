@@ -23,5 +23,12 @@ void main(){
     [4, 8, 12, 16, 20]
   ];
 
+  for (List list in myList) {
+    print(list[2]);
+  }
+  for (int i = 0; i < myList.length; i++ ) {
+    print(myList[i][2]);
+  }
+
 
 }
